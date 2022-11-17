@@ -1,0 +1,26 @@
+.button{
+    font-size: 60px;
+    font-family: "Courier";
+    font-weight: 600;
+    width: 700px;
+    color: chartreuse;
+    padding: 10px 20px 10px 20px;
+    margin: 20px;
+    display:block;
+    line-height: 100px;
+    transition:all 0.1s;
+    text-align: center;
+}
+
+#menu{
+    width: 750px;
+    margin: auto;
+}
+
+.button:active{
+    transform: translateY(10px);
+}
+
+body{
+    background-color: black;
+}
