@@ -1,26 +1,79 @@
-.button{
-    font-size: 60px;
-    font-family: "Courier";
-    font-weight: 600;
-    width: 700px;
-    color: chartreuse;
-    padding: 10px 20px 10px 20px;
-    margin: 20px;
-    display:block;
-    line-height: 100px;
-    transition:all 0.1s;
-    text-align: center;
-}
-
-#menu{
-    width: 750px;
-    margin: auto;
-}
-
-.button:active{
-    transform: translateY(10px);
-}
-
 body{
     background-color: black;
+    text-align: center;
+    align-content: center;
+}
+
+.header{
+    font-family: "Courier";
+    color: chartreuse;
+    font-size: 60px
+}
+
+.buttons{
+    display: flex
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.ttt3{
+    font-family: "Courier";
+    font-weight: 1000;
+    border: 0;
+    outline: none;
+    font-size: 70px;
+    margin: 10px;
+    color: chartreuse;
+    background-color: black;
+    border: 2px solid chartreuse;
+    padding: 30px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ttt3:hover{
+    color: black;
+    background: chartreuse;
+}
+
+
+.ttt4{
+    font-family: "Courier";
+    font-weight: 1000;
+    border: 0;
+    outline: none;
+    font-size: 70px;
+    margin: 10px;
+    color: chartreuse;
+    background-color: black;
+    border: 2px solid chartreuse;
+    padding: 30px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ttt4:hover{
+    color: black;
+    background: chartreuse;
+}
+
+.ttt5{
+    font-family: "Courier";
+    font-weight: 1000;
+    border: 0;
+    outline: none;
+    font-size: 70px;
+    margin: 10px;
+    color: chartreuse;
+    background-color: black;
+    border: 2px solid chartreuse;
+    padding: 30px 30px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.ttt5:hover{
+    color: black;
+    background: chartreuse;
 }
